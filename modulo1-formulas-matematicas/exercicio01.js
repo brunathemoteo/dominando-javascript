@@ -3,8 +3,8 @@
 // 1- Escreva um programa que solicite ao usuario dois numeros e exiba a soma, subtração, multiplicação e divisao entre eles.
 
 const prompt = require("prompt-sync")(); 
-let num1= parseFloat(prompt('Digite o primeiro número: '));
-let num2= parseFloat(prompt('Digite o segundo número: '));
+const num1= Number.parseFloat(prompt('Digite o primeiro número: '));
+const num2= Number.parseFloat(prompt('Digite o segundo número: '));
 
  const soma = num1 + num2;
  const subtracao = num1 - num2;
