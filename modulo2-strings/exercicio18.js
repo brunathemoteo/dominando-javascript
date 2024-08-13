@@ -7,3 +7,5 @@ const frase = prompt("Digite a frase: ");
 const novaFrase = frase.replace(/a/g, "e");
 
 console.log(novaFrase);
+
+console.log(" b r u n a ".replaceAll(" ", ""));

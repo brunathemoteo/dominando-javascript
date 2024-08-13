@@ -3,6 +3,8 @@
 const prompt = require("prompt-sync")();
 const nome = prompt("Digite um nome: ");
 
-if()
-
-
+if (nome.charAt(0).toUpperCase() === "A") {
+	console.log("O nome começa com A.");
+} else {
+	console.log("O nome não começa com A");
+}
